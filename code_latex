@@ -1,0 +1,112 @@
+\documentclass[11pt,a4paper]{article}
+
+% Encoding & Romanian
+\usepackage[utf8]{inputenc}
+\usepackage[romanian]{babel}
+
+% Page layout
+\usepackage[a4paper,margin=1.9cm]{geometry}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% Fonts & formatting
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+% Section formatting with horizontal line under each section
+\titleformat{\section}
+  {\large\bfseries} % Text style
+  {}                % No numbering
+  {0pt}             % Space between label and title
+  {}                % Before title code
+  [\vspace{2pt}\titlerule] % After title: horizontal line
+
+% Reduce spacing under section titles
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+% Custom bullet spacing
+\setlist[itemize]{leftmargin=1.2cm, itemsep=2pt, topsep=2pt}
+
+\begin{document}
+
+%-----------------------------------------------------
+% HEADER
+%-----------------------------------------------------
+
+{\LARGE \textbf{ISFAN IOAN-MARIUS}} \\[4pt]
+București, Sector 3 \\[2pt]
+\textbf{Telefon:} {+40 773 980 326 } \\
+\textbf{Email:} \href{mailto:isfan.io.marius@yahoo.com}{isfan.io.marius@yahoo.com} \\[2pt]
+\href{https://github.com/IsfanIoanMarius}{GitHub}
+\href{https://www.linkedin.com/in/ioan-marius-i%C8%99fan-91609a2a0/}{LinkedIn}
+%-----------------------------------------------------
+\section*{SELF-PRESENTATION}
+\hspace{20pt} Systems Engineering student with hands-on experience in C/C++, Python, and Java, focusing on embedded software development. Passionate about applying analytical thinking and proactive problem-solving to build efficient, reliable software and support automation projects in Agile teams.
+
+%-----------------------------------------------------
+\section*{PROJECTS}
+
+\textbf {Soil Moisture Monitoring System with ESP32 and Home Assistant via WiFi (Internship)} \\
+\textit {Technologies: YAML, C/C++ (Arduino), Linux, ESP32 microcontroller, Raspberry Pi 5, Embedded Systems}
+\begin{itemize}
+    \item Calibrated sensors for accurate measurements of soil moisture.
+    \item Integrated ESP32 with Home Assistant via WiFi using ESPHome for real-time sensor data transmission.
+    \item \textbf{Achievement:} Successfully implemented a soil moisture monitoring system using ESP32 and Home Assistant, enabling real-time visualization.
+\end{itemize}
+
+\textbf{Database Management Application for a Supermarket (Faculty)} \\
+\textit {Technologies: Python, SQL Server, HTML, JavaScript}
+\begin{itemize}
+    \item Developed a GUI using HTML and JavaScript and implemented complex SQL queries ensuring robust data integrity.
+    \item Developed the backend logic in Python, applying procedural programming techniques.
+    \item \textbf{Achievement:} Improved data management flow and query efficiency.
+\end{itemize}
+
+\textbf{Square Battle PVP (Personal)} \\
+\textit {Technologies: Python, Pygame}
+\begin{itemize}
+    \item Created a 2D game with two controllable entities.
+    \item Used Pygame for creating an interactive GUI.
+    \item \textbf{Achievement:} Developed a 2D Python game with clean code, demonstrating strong OOP design and organized procedural logic.
+\end{itemize}
+
+%-----------------------------------------------------
+\section*{EDUCATION}
+
+\textbf{Politehnica Bucharest National University for Science and Technology} \hfill \textit{Oct 2022 -- Present} \\
+B.S. in Systems Engineering, Faculty of Automatic Control and Computer Science \\
+Relevant Coursework: Data Structures and Algorithms, C/C++ (Programming and OOP), Networking Fundamentals, Web Development.
+
+\textbf{Cambridge Certificate in English} \hfill  \textit{Dec 2021} \\
+B2 level (Fluent English read/write/speak) \\
+
+\textbf{Oracle Academy – Award of Achievement, Database Design and Programming with SQL} \\
+Successfully completed the final exam \hfill  \textit{May 2022} \\
+
+%-----------------------------------------------------
+\section*{SOFT SKILLS}
+\begin{itemize}
+    \item \textbf{Problem-Solving:} Able to quickly diagnose technical problems and deliver efficient solutions.
+    \item \textbf{Teamwork \& Agile Mindset:} Experienced in working with diverse teams.
+    \item \textbf{Proactive Learning:} Ability to quickly understand and apply new technologies or concepts; interested in adopting new technologies efficiently.
+\end{itemize}
+
+%-----------------------------------------------------
+\section*{TECHNICAL STRENGTHS}
+
+\textbf{Programming \& Scripting:} C/C++ (Procedural/OOP), Java, Python, Linux, Bash, HTML/CSS/JavaScript, YAML \\
+\textbf{Tools \& Platforms:} VS Code, Git, Linux, SQL Server, Arduino, ESP32, Raspberry Pi, Home Assistant \\
+\textbf{Systems Fundamentals:} Processor Architectures, Microcontrollers \& Microprocessors, Hardware–Software Integration, RTOS, Networking Fundamentals
+
+
+\section*{HOBBIES \& INTERESTS}
+\begin{itemize}
+    \item Chess and Football (watch and play)
+    \item Practice Skiing
+    \item Studying and exploring new technologies
+    
+\end{itemize}
+
+
+\end{document}
