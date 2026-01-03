@@ -1,0 +1,126 @@
+\documentclass[11pt,a4paper]{article}
+
+%-----------------------------------------------------
+% Encoding & Romanian
+%-----------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[romanian]{babel}
+
+%-----------------------------------------------------
+% Page layout
+%-----------------------------------------------------
+\usepackage[a4paper,margin=1.9cm]{geometry}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+%-----------------------------------------------------
+% Fonts & formatting
+%-----------------------------------------------------
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+% Section formatting with horizontal line
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0pt}
+  {}
+  [\vspace{2pt}\titlerule]
+
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+\setlist[itemize]{leftmargin=1.2cm, itemsep=2pt, topsep=2pt}
+
+%-----------------------------------------------------
+\begin{document}
+
+%-----------------------------------------------------
+% HEADER
+%-----------------------------------------------------
+{\LARGE \textbf{ISFAN IOAN-MARIUS}} \\[4pt]
+București, Sector 3 \\[2pt]
+\textbf{Telefon:} {+40 773 980 326 } \\
+\textbf{Email:} \href{mailto:isfan.io.marius@gmail.com}{isfan.io.marius@gmail.com} \\[2pt]
+\href{https://github.com/IsfanIoanMarius}{GitHub}
+\href{https://www.linkedin.com/in/ioan-marius-i%C8%99fan-91609a2a0/}{LinkedIn}
+
+%-----------------------------------------------------
+\section*{SELF-PRESENTATION}
+\hspace{20pt} Systems Engineering student with a strong interest in embedded and IoT software development. Hands-on experience working with ESP32 microcontrollers, environmental sensors, and Linux-based systems. Motivated to contribute to real-world engineering projects through efficient, reliable, and well-structured code.
+
+%-----------------------------------------------------
+\section*{INTERNSHIP EXPERIENCE}
+
+\textbf{Embedded Systems Intern} \hfill \textit{SMARTSIVIS DIGITAL SRL} \\
+\textit{Technologies: ESP32, C/C++, ESPHome, Home Assistant, Linux, Raspberry Pi}
+
+\begin{itemize}
+    \item Developed an IoT-based soil moisture monitoring system using an ESP32 microcontroller.
+    \item Integrated and calibrated \textbf{3 environmental sensors} to ensure accurate and stable measurements.
+    \item Configured wireless communication between ESP32 and Home Assistant via WiFi using ESPHome.
+    \item Deployed and tested the system on a Raspberry Pi running Linux.
+    \item \textbf{Result:} Enabled real-time monitoring and visualization of sensor data through Home Assistant dashboards.
+\end{itemize}
+
+%-----------------------------------------------------
+\section*{PROJECTS}
+
+\textbf{Database Management Application for a Supermarket (Academic Project)} \\
+\textit{Technologies: Python, SQL Server, SQL Server Management Studio (SSMS), HTML}
+
+\begin{itemize}
+    \item Designed and implemented a relational database system consisting of \textbf{7 databases} and \textbf{10 interconnected tables}, including junction tables.
+    \item Developed and tested complex SQL queries involving joins, constraints, and data integrity enforcement.
+    \item Implemented backend logic in Python and a web-based GUI using HTML and JavaScript.
+    \item \textbf{Result:} Improved data consistency and optimized data flow by reducing redundant database operations.
+\end{itemize}
+
+\textbf{Square Battle PVP (Personal Project)} \\
+\textit{Technologies: Python, Pygame}
+
+\begin{itemize}
+    \item Developed a 2D game featuring two controllable players and real-time interaction.
+    \item Designed the game architecture using object-oriented principles and structured logic.
+    \item \textbf{Result:} Demonstrated clean code practices, OOP design, and interactive GUI development.
+\end{itemize}
+
+%-----------------------------------------------------
+\section*{TECHNICAL STRENGTHS}
+
+\textbf{Programming \& Scripting:} C/C++ (Procedural, OOP), Python, Java, Bash, HTML, CSS, JavaScript, YAML \\
+\textbf{Tools \& Platforms:} Linux, Git, VS Code, SQL Server,  SQL Server Management Studio (SSMS) , Arduino, ESP32, Raspberry Pi, Home Assistant \\
+\textbf{Systems Fundamentals:} Microcontrollers and Microprocessors, Hardware--Software Integration, RTOS, Networking Fundamentals
+
+%-----------------------------------------------------
+\section*{EDUCATION}
+
+\textbf{Politehnica Bucharest National University for Science and Technology} \hfill \textit{Oct 2022 -- Present} \\
+B.S. in Systems Engineering, Faculty of Automatic Control and Computer Science \\
+Relevant Coursework: Data Structures and Algorithms, C/C++ Programming, Object-Oriented Programming, Networking Fundamentals, Web Development
+
+\vspace{4pt}
+\textbf{Oracle Academy -- Database Design and Programming with SQL} \hfill \textit{May 2022} \\
+Award of Achievement (Final Exam)
+
+\vspace{4pt}
+\textbf{Cambridge Certificate in English} \hfill \textit{Dec 2021} \\
+B2 Level -- Fluent in reading, writing, and speaking
+
+%-----------------------------------------------------
+\section*{SOFT SKILLS}
+\begin{itemize}
+    \item \textbf{Problem-Solving:} Strong analytical skills with the ability to quickly identify and resolve technical issues.
+    \item \textbf{Teamwork \& Agile Mindset:} Experience working in collaborative and iterative development environments.
+    \item \textbf{Proactive Learning:} Fast learner with a strong interest in adopting new technologies efficiently.
+\end{itemize}
+
+%-----------------------------------------------------
+\section*{HOBBIES \& INTERESTS}
+\begin{itemize}
+    \item Chess and Football (watching and playing)
+    \item Skiing
+    \item Exploring new technologies and embedded systems
+\end{itemize}
+
+\end{document}
